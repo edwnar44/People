@@ -1,0 +1,9 @@
+C:\Users\Lenovo\source\repos\People\People.Business\bin\Debug\netcoreapp3.1\People.Business.deps.json
+C:\Users\Lenovo\source\repos\People\People.Business\bin\Debug\netcoreapp3.1\People.Business.dll
+C:\Users\Lenovo\source\repos\People\People.Business\bin\Debug\netcoreapp3.1\People.Business.pdb
+C:\Users\Lenovo\source\repos\People\People.Business\obj\Debug\netcoreapp3.1\People.Business.csprojAssemblyReference.cache
+C:\Users\Lenovo\source\repos\People\People.Business\obj\Debug\netcoreapp3.1\People.Business.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\People\People.Business\obj\Debug\netcoreapp3.1\People.Business.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\People\People.Business\obj\Debug\netcoreapp3.1\People.Business.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\People\People.Business\obj\Debug\netcoreapp3.1\People.Business.dll
+C:\Users\Lenovo\source\repos\People\People.Business\obj\Debug\netcoreapp3.1\People.Business.pdb

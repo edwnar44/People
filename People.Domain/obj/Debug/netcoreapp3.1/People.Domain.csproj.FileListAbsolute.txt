@@ -1,0 +1,9 @@
+C:\Users\Lenovo\source\repos\People\People.Domain\bin\Debug\netcoreapp3.1\People.Domain.deps.json
+C:\Users\Lenovo\source\repos\People\People.Domain\bin\Debug\netcoreapp3.1\People.Domain.dll
+C:\Users\Lenovo\source\repos\People\People.Domain\bin\Debug\netcoreapp3.1\People.Domain.pdb
+C:\Users\Lenovo\source\repos\People\People.Domain\obj\Debug\netcoreapp3.1\People.Domain.csprojAssemblyReference.cache
+C:\Users\Lenovo\source\repos\People\People.Domain\obj\Debug\netcoreapp3.1\People.Domain.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\People\People.Domain\obj\Debug\netcoreapp3.1\People.Domain.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\People\People.Domain\obj\Debug\netcoreapp3.1\People.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\People\People.Domain\obj\Debug\netcoreapp3.1\People.Domain.dll
+C:\Users\Lenovo\source\repos\People\People.Domain\obj\Debug\netcoreapp3.1\People.Domain.pdb
