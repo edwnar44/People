@@ -6,10 +6,11 @@
     using System.Text;
 
 
-    public class Person
+    public class Person //: IEntity
     {
 
         public int Id { get; set; }
+
         [Display(Name = "No. Documento")]
         [Required(ErrorMessage = "El atributo {0} es requerido")]
         [MaxLength(15, ErrorMessage = "El atributo {0} solo puede contener {1} caracteres")]
