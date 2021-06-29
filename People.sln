@@ -19,6 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "People.Domain", "People.Dom
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "People.Repository", "People.Repository\People.Repository.csproj", "{AC3CB5B3-E15F-40DE-B629-9DAC24B7B78A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sql", "Sql", "{8910C4B7-7131-4F1E-95C5-2E5BA7BBE3DA}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\OneDrive\Documentos\SQL Server Management Studio\SqlPrueba.sql = ..\..\..\OneDrive\Documentos\SQL Server Management Studio\SqlPrueba.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
