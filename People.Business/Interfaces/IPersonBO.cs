@@ -8,5 +8,6 @@
 
     public interface IPersonBO : IGenericBO<Person>
     {
+        List<Person> GetAllByDocumentNumber(string documentNumber);
     }
 }

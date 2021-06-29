@@ -7,3 +7,6 @@ C:\Users\Lenovo\source\repos\People\People.Repository\obj\Debug\netcoreapp3.1\Pe
 C:\Users\Lenovo\source\repos\People\People.Repository\obj\Debug\netcoreapp3.1\People.Repository.csproj.CoreCompileInputs.cache
 C:\Users\Lenovo\source\repos\People\People.Repository\obj\Debug\netcoreapp3.1\People.Repository.dll
 C:\Users\Lenovo\source\repos\People\People.Repository\obj\Debug\netcoreapp3.1\People.Repository.pdb
+C:\Users\Lenovo\source\repos\People\People.Repository\bin\Debug\netcoreapp3.1\People.Domain.dll
+C:\Users\Lenovo\source\repos\People\People.Repository\bin\Debug\netcoreapp3.1\People.Domain.pdb
+C:\Users\Lenovo\source\repos\People\People.Repository\obj\Debug\netcoreapp3.1\People.Repository.csproj.CopyComplete

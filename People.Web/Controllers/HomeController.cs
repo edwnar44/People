@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using People.Business.Interfaces;
+using People.Domain.Entities;
 using People.Web.Models;
 using System;
 using System.Collections.Generic;
@@ -12,15 +14,21 @@ namespace People.Web.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IPersonBO _personBO;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(
+            ILogger<HomeController> logger,
+            IPersonBO personBO)
         {
             _logger = logger;
+            _personBO = personBO;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(string documentNumber = null)
         {
-            return View();
+            List<Person> list = _personBO.GetAllByDocumentNumber(documentNumber);
+
+            return View(list);
         }
 
         public IActionResult Privacy()

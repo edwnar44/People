@@ -33,6 +33,11 @@
             return _repository.GetAll();
         }
 
+        public List<Person> GetAllByDocumentNumber(string documentNumber)
+        {
+            return _repository.GetAllByDocumentNumber(documentNumber);
+        }
+
         public async Task<Person> GetByIdAsync(int id)
         {
             return await _repository.GetByIdAsync(id);

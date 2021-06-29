@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using People.Business.Admin;
+using People.Business.Interfaces;
 using People.Domain.Context;
 
 namespace People.Web
@@ -26,6 +28,8 @@ namespace People.Web
             });
 
             services.AddControllersWithViews();
+
+            services.AddScoped<IPersonBO, PersonBO>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

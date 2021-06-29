@@ -9,5 +9,6 @@
 
     public interface IPersonRepository : IGenericRepository<Person>
     {
+        List<Person> GetAllByDocumentNumber(string documentNumber);
     }
 }

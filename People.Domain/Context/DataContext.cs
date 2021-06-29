@@ -15,5 +15,20 @@ namespace People.Domain.Context
         }
 
         public DbSet<Person> Person { get; set; }
+        public DbSet<Factura> Factura { get; set; }
+        public DbSet<DetalleFactura> DetalleFactura { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.Entity<DetalleFactura>()
+                .Property(df => df.ValorUnitario)
+                .HasColumnType("decimal(18,2)");
+
+            builder.Entity<DetalleFactura>()
+            .HasOne(p => p.Factura)
+            .WithMany(b => b.DetalleFacturas);
+
+            base.OnModelCreating(builder);
+        }
     }
 }

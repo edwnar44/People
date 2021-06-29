@@ -6,7 +6,7 @@
     using System.Text;
 
 
-    public class Person //: IEntity
+    public class Person : IEntity
     {
 
         public int Id { get; set; }
@@ -14,7 +14,7 @@
         [Display(Name = "No. Documento")]
         [Required(ErrorMessage = "El atributo {0} es requerido")]
         [MaxLength(15, ErrorMessage = "El atributo {0} solo puede contener {1} caracteres")]
-        public int DocumentNumber { get; set; }
+        public string DocumentNumber { get; set; }
 
         [Display(Name = "Nombre")]
         [Required(ErrorMessage = "El atributo {0} es requerido")]
@@ -31,7 +31,7 @@
         [MaxLength(100, ErrorMessage = "El atributo {0} solo puede contener {1} caracteres")]
         public string Address { get; set; }
 
-        [Display(Name = "Número Telefono")]
+        [Display(Name = "Número Teléfono")]
         [Required(ErrorMessage = "El atributo {0} es requerido")]
         [MaxLength(10, ErrorMessage = "El atributo {0} solo puede contener {1} caracteres")]
         public string PhoneNumber { get; set; }
@@ -41,6 +41,7 @@
         [EmailAddress]
         public string Email { get; set; }
 
+        [Display(Name = "Nombres y Apellidos")]
         public string FullName => $"{Name} {LastName}";
     }
 }
